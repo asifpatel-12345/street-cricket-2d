@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Cricket 2D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🏏 Street Cricket Game</h1>
+        <div class="scoreboard">
+            <span>Score: <strong id="score">0</strong></span>
+            <span>Wickets: <strong id="wickets">0</strong>/3</span>
+            <span>Balls: <strong id="balls">0</strong>/12</span>
+        </div>
+
+        <div class="canvas-box">
+            <canvas id="gameCanvas" width="600" height="400"></canvas>
+            <div id="message-overlay">Press Spacebar or Click to Play!</div>
+        </div>
+
+        <div class="controls">
+            <button id="hitBtn" class="btn">HIT SHOT 🏏</button>
+            <button id="resetBtn" class="btn secondary">Restart Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
